@@ -1,6 +1,6 @@
 if ('serviceWorker' in navigator) {
     window.onload = function () {
-        navigator.serviceWorker.register('https://leocaliban.github.io/b7web-service-workers/')
+        navigator.serviceWorker.register('https://leocaliban.github.io/b7web-service-workers/sw.js')
             .then(function () {
                 console.log('ServiceWorker registrado!');
             }, function (e) {
